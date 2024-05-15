@@ -1,0 +1,78 @@
+
+
+header label {
+    /* ... */
+    left: 35em;
+    bottom: 2em;
+}
+
+nav ul {
+    /* ... */
+    left: 35em;
+}
+
+/* ... */
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+    header label {
+        left: 30em;
+    }
+
+    nav ul {
+        left: 30em;
+    }
+
+    .dropdown-content {
+        left: 80em;
+    }
+}
+
+@media (max-width: 992px) {
+    header label {
+        left: 25em;
+    }
+
+    nav ul {
+        left: 25em;
+    }
+
+    .dropdown-content {
+        left: 60em;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+
+    header label {
+        left: 0;
+        bottom: 1em;
+    }
+
+    nav ul {
+        left: 0;
+        width: 100%;
+    }
+
+    .dropdown-content {
+        left: 40em;
+    }
+}
+
+@media (max-width: 576px) {
+    header label {
+        font-size: 16px;
+        padding: 3px 7px;
+    }
+
+    nav ul {
+        width: 90%;
+    }
+
+    .dropdown-content {
+        left: 20em;
+    }
+}

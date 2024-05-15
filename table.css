@@ -1,0 +1,31 @@
+td, th {
+    color: rgba(0, 14, 61, 0.959);
+    background-color: #469ff3;
+}
+
+blockquote{
+    background-color: #514c809f;
+    color: #1bcfc6;
+}
+
+
+
+.truculenta-uniquifier {
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+table{
+    background-color: #7780ff8c;
+    border-radius: 5px;
+    
+}
+
+section table{
+    grid-template-columns: auto;
+}
+
+

@@ -1,0 +1,15 @@
+body{
+    width: 40%;
+    height: 50%;
+}
+
+p {
+    position: relative;
+    left: 7em;
+}
+
+
+button{
+    color: rgb(255, 255, 255);
+}
+
